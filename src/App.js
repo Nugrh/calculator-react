@@ -1,11 +1,12 @@
-import Container from "./components/container/Container";
+import React from "react";
+import Calculator from "./components/calculator/Calculator";
 
-function App() {
+const App = () => {
     return (
         <div>
-            <Container />
+            <Calculator />
         </div>
     );
-}
+};
 
 export default App;
